@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="cdfbb4c4db131300aa20773ebf961944" sys_domain="global" table="x_200894_sita_risk_risk_sita" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-09 16:11:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d5fbb4c4db131300aa20773ebf961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_200894_sita_risk_risk_sita" name="x_200894_sita_risk_risk_sita" sys_domain="global" view="Default view">cdfbb4c4db131300aa20773ebf961944</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_200894_sita_risk_risk_sita" sys_domain="global" view="Default view">54619617db031300aa20773ebf9619b3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-09 16:11:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-09 16:11:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1fbb4c4db131300aa20773ebf961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_200894_sita_risk_risk_sita" name="x_200894_sita_risk_risk_sita" sys_domain="global" view="Default view">cdfbb4c4db131300aa20773ebf961944</sys_ui_form>
+            <sys_ui_section caption="Risk Details" display_value="Risk Details" name="x_200894_sita_risk_risk_sita" sys_domain="global" view="Default view">81fbb4c4db131300aa20773ebf961944</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-09 16:11:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-09 16:37:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c020188db131300aa20773ebf9619b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_200894_sita_risk_risk_sita" name="x_200894_sita_risk_risk_sita" sys_domain="global" view="Default view">cdfbb4c4db131300aa20773ebf961944</sys_ui_form>
+            <sys_ui_section caption="Mitigation Plan" display_value="Mitigation Plan" name="x_200894_sita_risk_risk_sita" sys_domain="global" view="Default view">80020188db131300aa20773ebf9619ae</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-09 16:37:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-09 16:37:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>58020188db131300aa20773ebf9619b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_200894_sita_risk_risk_sita" name="x_200894_sita_risk_risk_sita" sys_domain="global" view="Default view">cdfbb4c4db131300aa20773ebf961944</sys_ui_form>
+            <sys_ui_section caption="Mitigation Description" display_value="Mitigation Description" name="x_200894_sita_risk_risk_sita" sys_domain="global" view="Default view">88020188db131300aa20773ebf9619ae</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-09 16:37:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-09 16:37:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d8020188db131300aa20773ebf9619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_200894_sita_risk_risk_sita" name="x_200894_sita_risk_risk_sita" sys_domain="global" view="Default view">cdfbb4c4db131300aa20773ebf961944</sys_ui_form>
+            <sys_ui_section caption="Activity Log" display_value="Activity Log" name="x_200894_sita_risk_risk_sita" sys_domain="global" view="Default view">90020188db131300aa20773ebf9619af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-09 16:37:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_200894_sita_risk_risk_sita</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-09 16:11:00</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cdfbb4c4db131300aa20773ebf961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_200894_sita_risk_risk_sita</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SITA Risk Management" source="x_200894_sita_risk">24305253db031300aa20773ebf961983</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SITA Risk Management">24305253db031300aa20773ebf961983</sys_scope>
+            <sys_update_name>sys_ui_form_sections_cdfbb4c4db131300aa20773ebf961944</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-09 16:11:00</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

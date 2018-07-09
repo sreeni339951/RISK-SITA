@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Risk_SITA" max_length="40" name="x_200894_sita_risk_risk_sita" sizeclass="1" type="collection">
+        <element choice="1" label="Category of Risk" mandatory="true" max_length="40" name="category_of_risk" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Probability" mandatory="true" max_length="40" name="probability" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Risk State" mandatory="true" max_length="40" name="risk_state" read_only="true" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Severity" mandatory="true" max_length="40" name="severity" read_only="true" type="choice">
+            <choice/>
+        </element>
+        <element display="true" label="SITA Owner" mandatory="true" max_length="32" name="sita_owner" reference="sys_user" type="reference"/>
+        <element label="Associated Mitigation Plan" max_length="32" name="u_associated_mitigation_plan" reference="x_200894_sita_risk_mitigation_sita" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Security" label="Category of Risk" mandatory="true" max_length="40" name="u_category_of_risk" type="string">
+            <choice>
+                <element label="Availability" sequence="0" value="Availability"/>
+                <element label="Performance" sequence="1" value="Performance"/>
+                <element label="Dependency" sequence="2" value="Dependency"/>
+                <element label="Financial" sequence="3" value="Financial"/>
+                <element label="Security" sequence="4" value="Security"/>
+                <element label="Other" sequence="5" value="Other"/>
+            </choice>
+        </element>
+        <element label="Customer Risk Owner" mandatory="true" max_length="32" name="u_customer_risk_owner" reference="sys_user" type="reference"/>
+        <element dependent="u_mitigation_status" dependent_on_field="u_mitigation_status" label="Mitigation Status" max_length="32" name="u_mitigation_status" read_only="true" reference="x_200894_sita_risk_mitigation_sita" type="reference" use_dependent_field="true"/>
+        <element label="Mitigation Target Completion Date" max_length="32" name="u_mitigation_target_completion_date" reference="x_200894_sita_risk_mitigation_sita" type="reference"/>
+        <element choice="1" label="Probability" mandatory="true" max_length="40" name="u_probability" type="integer">
+            <choice>
+                <element label="High" sequence="0" value="1"/>
+                <element label="Medium" sequence="1" value="2"/>
+                <element label="Low" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Risk Closure Description" max_length="40" name="u_risk_closure_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Risk State" mandatory="true" max_length="40" name="u_risk_state" type="string">
+            <choice>
+                <element label="Open" sequence="0" value="Open"/>
+                <element label="Acknowledged" sequence="1" value="Acknowledged"/>
+                <element label="On-hold" sequence="2" value="On-hold"/>
+                <element label="Mitigation in progess" sequence="3" value="Mitigation in progess"/>
+                <element label="Mitigation closed" sequence="4" value="Mitigation closed"/>
+                <element label="Closed" sequence="5" value="Closed"/>
+                <element label="Rejected" sequence="6" value="Rejected"/>
+            </choice>
+        </element>
+        <element choice="1" label="Severity" mandatory="true" max_length="40" name="u_severity" type="integer">
+            <choice>
+                <element label="1" sequence="0" value="1"/>
+                <element label="2" sequence="1" value="2"/>
+                <element label="3" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Site" mandatory="true" max_length="40" name="u_site" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Mitigation Description" max_length="4000" name="u_string_7" type="string"/>
+    </element>
+</database>

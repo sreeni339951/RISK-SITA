@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="impact" table="x_200894_sita_risk_risk_sita" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>impact</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>-- New choice --</label>
+            <language>en</language>
+            <name>x_200894_sita_risk_risk_sita</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-07 14:40:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44045a57db031300aa20773ebf961985</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-09 15:41:43</sys_updated_on>
+            <value>-- New choice --</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>impact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Significant</label>
+            <language>en</language>
+            <name>x_200894_sita_risk_risk_sita</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-09 15:41:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5445b404db131300aa20773ebf961963</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-09 15:41:43</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>impact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Moderate</label>
+            <language>en</language>
+            <name>x_200894_sita_risk_risk_sita</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-09 15:41:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5045b404db131300aa20773ebf961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-09 15:41:43</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>impact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Low</label>
+            <language>en</language>
+            <name>x_200894_sita_risk_risk_sita</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-09 15:41:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1c45b404db131300aa20773ebf961966</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-09 15:41:43</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>impact</element>
+            <name>x_200894_sita_risk_risk_sita</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-07 14:40:14</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>cc045a57db031300aa20773ebf961986</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>impact</sys_name>
+            <sys_package display_value="SITA Risk Management" source="x_200894_sita_risk">24305253db031300aa20773ebf961983</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SITA Risk Management">24305253db031300aa20773ebf961983</sys_scope>
+            <sys_update_name>sys_choice_x_200894_sita_risk_risk_sita_impact</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-09 15:41:43</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
